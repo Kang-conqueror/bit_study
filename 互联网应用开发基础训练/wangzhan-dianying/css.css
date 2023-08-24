@@ -1,0 +1,53 @@
+#box {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#nav {
+  font: 36px/2em medium;
+  background: lightblue;
+  width: 1100px;
+  height: 100px;
+}
+
+#bread {
+  border-bottom: 1px black dotted;
+  padding: 3px;
+  text-align: left;
+}
+
+.pics {
+  width: 350px;
+  height: 515px;
+  margin: 8px;
+}
+
+#footer {
+  font-size: small;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+.banner {
+  width: 850px;
+  height: 850px;
+}
+.lastline {
+  margin-bottom: 4em;
+}
+
+div {
+  background-image: url("images/background2.jpg");
+}
+
+hr {
+  background-color: white;
+  height: 10px;
+}
