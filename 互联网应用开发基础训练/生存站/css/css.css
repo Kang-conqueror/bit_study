@@ -1,0 +1,62 @@
+video {
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.Btn {
+  width: 300px;
+  height: 90px;
+  font-size: xx-large;
+  margin-right: 20px;
+  background-image: url("../image/Button_background.jpg");
+}
+
+.Button {
+  position: absolute;
+  width: 2000px;
+  height: 500px;
+  min-width: 100%;
+  min-height: 100%;
+  text-align: center;
+}
+
+.Background {
+  background-image: url("../image/LogInBackground.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+
+.Info {
+  height: 50px;
+  font-size: xx-large;
+}
+
+h1.Info {
+  color: black;
+}
+
+.Species {
+  height: 200px;
+  width: 130px;
+}
+
+hr {
+  color: black;
+  height: 10px;
+  background-color: black;
+  border-color: black;
+}
+
+dt {
+  float: left;
+}
+
+dd {
+  font-size: xx-large;
+  height: 200px;
+}
