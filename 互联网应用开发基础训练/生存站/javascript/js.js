@@ -59,3 +59,6 @@ if (document.querySelector("#LogIn") != null) {
   const LogIn = document.querySelector("#LogIn");
   LogIn.addEventListener("click", LOG_IN);
 }
+
+//Talk
+function Talk() {}

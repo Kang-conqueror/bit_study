@@ -1,0 +1,57 @@
+#box {
+  height: 2000px;
+}
+
+#box {
+  background-image: url("images/backgrounds2.jpg");
+  background-size: 100% 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#name {
+  text-align: center;
+  color: red;
+}
+
+img {
+  width: 300px;
+  height: 450px;
+  object-fit: cover;
+  position: absolute;
+  left: 100px;
+}
+
+hr {
+  background-color: black;
+  height: 10px;
+}
+
+.text {
+  text-align: center;
+  position: relative;
+  top: 100px;
+  font-size: x-large;
+  font-style: oblique;
+  color: rgb(220, 235, 3);
+}
+
+.lastline {
+  margin-bottom: 4em;
+}
+
+.introduce {
+  text-align: center;
+  position: relative;
+  color: black;
+  top: 100px;
+  font-size: x-large;
+}
+
+.introduce_background {
+  background-color: wheat;
+  width: 1000px;
+  height: 400px;
+  position: relative;
+
+  left: 500px;
+}

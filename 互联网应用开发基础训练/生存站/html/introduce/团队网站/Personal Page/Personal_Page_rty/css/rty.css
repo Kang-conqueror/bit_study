@@ -1,0 +1,47 @@
+body {
+    font-family: "微软雅黑";
+    background-color: rgb(245, 173, 125);
+    }
+
+#contents{
+    background-color: rgba(193, 205, 216, 0.75);
+    width:70%;
+    margin-left: 15%;
+    margin-top: 50px;
+    text-align: center;
+    border-radius:10px;  
+}
+
+#contents h2{
+    font-size: 50px;
+}
+
+#tests{
+    width:80%;
+    margin-left: 10%;
+    text-align: justify;
+    font-size: 20px;
+    text-indent: 40px;
+    line-height: 40px;
+}
+
+.title-1{
+    font-family: 华文彩云;
+}
+
+.p1{
+    font-family: 宋体;
+
+}
+
+#pic{
+    float: right;
+    text-align: center;
+}
+
+#pic2{
+    width: 300px;
+    height: 400px;
+}
+
+

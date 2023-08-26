@@ -58,5 +58,11 @@ dt {
 
 dd {
   font-size: xx-large;
-  height: 200px;
+  height: 300px;
+  color: red;
+}
+
+.Species {
+  height: 300px;
+  width: 200px;
 }
