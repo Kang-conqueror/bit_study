@@ -41,9 +41,9 @@ hr {
 
 .introduce {
   text-align: center;
-  position: relative;
+
   color: black;
-  top: 100px;
+
   font-size: x-large;
 }
 
@@ -53,5 +53,5 @@ hr {
   height: 400px;
   position: relative;
 
-  left: 500px;
+  left: 700px;
 }

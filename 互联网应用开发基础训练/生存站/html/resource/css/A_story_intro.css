@@ -1,0 +1,138 @@
+img {
+	width: 150px;
+	height: 150px;
+}
+ 
+#login-img{
+	margin-left: 30px;
+	float: left;
+}
+ 
+#register-img{
+	float: right;
+	margin-right: 35px;
+}
+ 
+#img-control {
+	margin-top: 65px;
+}
+ 
+#Xbox{
+    background-color: aliceblue;
+    background: url(../image/textBox.jpg);
+    background-size: cover;
+    width: 160;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    margin: -15px 0px 0px 1400px;
+}
+
+h2{
+    text-decoration: dashed;
+    size: 800px;
+    color: brown;
+    margin-top: 20px;
+}
+
+#form-border {
+	background-color: rgba(188, 176, 212, 0.8);
+    width: 1000px;
+    margin: 0 auto;
+    height: 600px;      /* 调整紫色框的高度 */
+	/* width: 500px;
+	height: 300px;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0; */
+}
+
+#div-title {
+    /* background-color: rgb(233, 242, 249); */
+	text-align: center;
+    height: 60px;
+    width: 300px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+ 
+h3{
+	font-size: 60px;
+	font-family: "隶书";
+    color: rgb(37, 239, 88);
+}
+
+.intro{
+    font-family: monospace, sans-serif;
+    margin-top: 10px;
+    line-height: 30px;
+    text-indent: 4%;
+    margin:10 20 10 20;
+    font-weight: bold;
+    color: blue;
+}
+
+/* .intro{
+    font-family: 宋体;
+    margin-top: 10px;
+    line-height: 30px;
+    text-indent: 4%;
+    margin:10 20 10 20;
+    font-weight: bold;
+    color: blue;
+} */
+
+#next-link{
+    text-decoration: none;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+
+  /* .container {
+    height: 100vh;
+    background-color: #fff;;
+  } */
+
+  .content {
+    animation: content-slide-in 1.5s steps(142) forwards;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+  }
+  
+  .content::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    height: 16px;
+    animation: sprinkle-bling .5s steps(2) infinite;
+  }
+  
+  @keyframes content-slide-in {
+    from {
+      width: 0;
+    }
+    to {
+      width: 142ch;
+    }
+  }
+  
+  @keyframes sprinkle-bling {
+    from {
+      border-right: 1px solid transparent;
+    }
+    to {
+      border-right: 1px solid #000;
+    }
+  }
+  

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script src="js/fuction.js"></script>
+	<link rel="stylesheet" href="css/diaA-1.css" />
+	<style>
+		body{
+			/* background-image: url(image/A.png); */
+			background-color: antiquewhite;
+		}
+	</style>
+	<script>
+		var text = ["I am a pig", "So am I", ''];
+			   var na = new Array("Jenny", "Danny", '');
+			   var size = 3;
+			   var now = 0;
+			   
+			   url=""
+			   
+			   window.onload = function() {
+				   say(text[now], na[now]);
+				   now++;
+			   };
+   
+			   function call() {
+				   say(text[now], na[now]);
+				   now++;
+				   if(now == size) Next(url);
+			   };
+   </script>
+</head>
+
+<body>
+	<div class="dialog">
+		<div class="name"></div>
+		<div class="innerBox" onclick="call()"></div>
+	</div>
+</body>
+</html>

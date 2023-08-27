@@ -1,0 +1,73 @@
+img {
+	width: 150px;
+	height: 150px;
+}
+ 
+#login-img{
+	margin-left: 30px;
+	float: left;
+}
+ 
+#register-img{
+	float: right;
+	margin-right: 35px;
+}
+ 
+#img-control {
+	margin-top: 65px;
+}
+ 
+#form-border {
+	background-color: rgba(14, 20, 64, 0.523);
+	width: 500px;
+	height: 300px;
+	position: absolute;
+	margin: 250 500 50 650;
+	/* margin: 0 auto; */
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+ 
+.form-input {
+	width: 200px;
+	height: 25px;
+	padding-left: 5px;
+	border-radius: 5px;
+}
+ 
+.form-label {
+	margin-left: 30px;
+  color: aliceblue;
+}
+ 
+.form-button {
+	width: 70px;
+	height: 30px;
+	margin-top: 10px;
+	margin-left: 70px;
+	font-size: 18px;
+	font-family: "宋体";
+}
+ 
+#div-title {
+  color: aliceblue;
+	text-align: center;
+	margin-top: 0 auto;
+  font-size: xx-large;
+}
+ 
+ 
+#password {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+ 
+#register {
+	margin-left: 70px;
+}
+
+#superlink{
+  color: aliceblue;;
+}
